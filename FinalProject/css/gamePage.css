@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.text1{
+  text-align: center;
+  font-size: 30px;
+}
+
+.text2{
+  color: #fff;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+#dinoGameDiv{
+margin: auto;
+height: 100%;
+}
+#dinoGameText{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 120px;
+}
+.hangMan{
+    position: relative
+}
+
+#hangManImg{
+    border-radius: 35px;
+}
+#hangManBtn {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: absolute;
+	  bottom: 230px;
+	  left: 160px;
+	  width: 100px;
+  }
+
+
+#hangManBtn:hover {background-color: #ffc400}
+
+#hangManBtn:active {
+  background-color: #00fff2;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+
+}
+
+#dino{
+    position: relative ;
+}
+#dinoGame{
+  background-color: white;
+  width: 417px;
+  height: 350px;
+  border-radius: 25px;
+  margin: auto;
+
+}
+
+
+.container{
+display: flex;
+justify-content: space-evenly;
+gap: 200px ;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+} 
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .footer{
+    background-color:rgb(255, 115, 0);
+}
+.fa-brands{
+    font-size: 50px;
+  }
+  .fa-instagram{
+    color: rgba(0, 234, 255, 0.959);
+  }
+  .fa-facebook{
+    color:  rgba(0, 234, 255, 0.959);
+  }
+  .fa-linkedin{
+    color: rgba(0, 234, 255, 0.959) ;
+  }
+  .social{
+    color:  rgba(0, 234, 255, 0.959);
+    text-decoration: none;
+  }
+
+  .fa-twitter{
+    color:  rgba(0, 234, 255, 0.959);
+  
+  }
+  .fa-house{
+    color: rgba(0, 0, 0, 0.959);
+    font-size: 30px;
+  }
+  
+
+  .fa-right-to-bracket{
+    color: rgba(0, 0, 0, 0.959);
+    font-size: 30px;
+  }
+  
+  hr{
+    width: 80%;
+  }
+  h3{
+    text-align: center;
+  }
+  .container1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .container2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  } 
+
+  #button1{
+    background-color: rgb(255, 115, 0);
+    border: none;
+    color: black;
+    font-size: 25px;
+    }
+    .navbar{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      background-color: rgb(255, 115, 0);
+      
+    }
+    
+    .navbar a{
+      text-align: center;
+      padding: 12px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 25px;
+    }
+    
+    .navbar a:hover {
+      background-color: #ffc400;
+      border: none; 
+      border-radius: 15px;  
+    }

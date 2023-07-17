@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div  class="container">
+        <h1>HangMan</h1>
+        <p class="p1">Wrong Guesses : <span id="mistakes">0</span> of <span id='maxWrong'></span></p>
+
+        <div class="image">
+            <img id="HangManImg" src="/Images/0.jpg" alt "" >
+        </div>
+        <p class="p2">Guess the programming Language</p>
+        <p id="wordSpotlight">The word to be guessed goes here</p>
+        <div id="keyboard"></div><br>
+        <button class="vertical-center" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
